@@ -1,0 +1,179 @@
+@media (width >= 640px) {
+  header {
+    height: 100px;
+  }
+
+  header img {
+    width: 200px;
+  }
+
+  .fa-arrow-left.fa-solid {
+    position: absolute;
+    left: 2%;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .restaurant-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  main {
+    position: absolute;
+    top: 66%;
+    left: 20%;
+  }
+
+  .restaurant-title {
+    display: flex;
+    align-items: center;
+    padding-left: 36rem;
+  }
+
+  .restaurant-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 1055px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 17px;
+  }
+
+  .restaurant-title h2 {
+    margin-right: 5rem;
+  }
+
+  .fa-heart.fa-regular {
+    position: absolute;
+    left: 62%;
+    height: 21px;
+    width: 30px;
+    margin-top: 30px;
+  }
+
+  .fa-heart.fa-solid {
+    position: absolute;
+    left: 62%;
+    height: 21px;
+    width: 30px;
+    margin-top: 30px;
+    border-radius: 0px;
+  }
+
+  .fa-heart.fa-solid:hover {
+    background-image: linear-gradient(
+      193.33deg,
+      #9356dc -11.44%,
+      #ff79da 123.93%
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transition-duration: 1s;
+  }
+
+  .menu-container {
+    width: 1055px;
+    height: 1178px;
+    margin: auto;
+    padding: 0 17px;
+    overflow-y: hidden;
+  }
+
+  #menu-container-menu-3 {
+    height: 1279px;
+  }
+
+  .menu-container .subtitle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 37rem;
+    padding-top: 4px;
+    overflow: hidden;
+    font-size: 18px;
+  }
+
+  .green-line {
+    width: 3%;
+    margin-left: 10.8rem;
+    margin-bottom: 12px;
+    padding-top: 5px;
+    border-bottom: 3px solid #99e2d0;
+  }
+
+  .menu-card {
+    margin: auto;
+    margin-bottom: 12px;
+    width: 634px;
+    height: 69px;
+  }
+
+  .menu-card:hover::after {
+    width: calc(10% + 15px);
+    right: -15px;
+  }
+
+  .text-ellipsis:hover {
+    width: 1000px;
+  }
+
+  .menu-card:hover .fa-circle-check.fa-solid {
+    right: 3%;
+  }
+
+  #entrees {
+    padding-right: 10px;
+  }
+
+  #plats {
+    padding-right: 30px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 3rem;
+  }
+
+  footer h2 {
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-right: 1rem;
+    font-size: 18px;
+    font-family: Shrikhand;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .fa-utensils.fa-solid {
+    margin-right: 1rem;
+  }
+
+  .fa-handshake-angle.fa-solid {
+    margin-right: 10px;
+  }
+
+  .white-space {
+    width: 100%;
+    height: 1210px;
+  }
+
+  #white-space-menu-3 {
+    height: 1310px;
+  }
+
+  footer ul {
+    display: flex;
+    padding-top: 84px;
+  }
+}
