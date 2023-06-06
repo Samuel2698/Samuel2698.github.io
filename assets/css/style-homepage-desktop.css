@@ -55,7 +55,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 4rem;
-    padding-right: 7rem;
   }
 
   .restaurant-card-1 {
