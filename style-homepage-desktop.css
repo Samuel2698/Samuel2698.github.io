@@ -1,0 +1,191 @@
+@media (width >= 640px) {
+  header {
+    height: 100px;
+  }
+
+  header img {
+    width: 200px;
+  }
+
+  .reservation h2 {
+    margin-bottom: 2rem;
+    font-size: 40px;
+  }
+
+  .reservation p {
+    font-size: 18px;
+  }
+
+  .functioning {
+    width: 100%;
+    height: 250px;
+    background-color: var(--background-light);
+  }
+
+  .functioning h2 {
+    margin-top: 50px;
+    margin-left: 264px;
+  }
+
+  .functioning-container {
+    display: flex;
+    margin-right: 150px;
+    margin-left: 250px;
+  }
+
+  .functioning-card {
+    margin-top: 1rem;
+    margin-left: 14px;
+  }
+
+  .functioning p {
+    margin-left: 1rem;
+  }
+
+  .restaurants {
+    height: 730px;
+  }
+
+  .restaurants h2 {
+    margin-left: 250px;
+    margin-bottom: 2rem;
+  }
+
+  .restaurants-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding-right: 7rem;
+  }
+
+  .restaurant-card-1 {
+    height: 251px;
+    width: 500px;
+    margin-right: 0;
+  }
+
+  .restaurant-card-2 {
+    height: 251px;
+    width: 500px;
+    margin-right: 12rem;
+  }
+
+  .restaurant-card-3 {
+    height: 251px;
+    width: 500px;
+    margin-right: 0;
+  }
+
+  .restaurant-card-4 {
+    height: 251px;
+    width: 500px;
+    margin-right: 12rem;
+  }
+
+  .badge-1 {
+    position: absolute;
+    right: 56.5%;
+    top: 0;
+    margin-top: 49.5rem;
+    width: 80px;
+    text-align: center;
+  }
+
+  .badge-2 {
+    position: absolute;
+    right: 7%;
+    top: 0;
+    margin-top: 49.5rem;
+    margin-right: 12.8rem;
+    width: 80px;
+    padding: 6px;
+    text-align: center;
+  }
+
+  .fa-heart.fa-regular {
+    position: absolute;
+    margin-top: 22px;
+    left: 80%;
+    font-size: 22px;
+    padding: 0 2px;
+  }
+
+  .fa-heart.fa-solid {
+    position: absolute;
+    margin-top: 22px;
+    padding: 0 2px;
+    left: 80%;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+  }
+
+  #heart-1 {
+    left: 45%;
+  }
+
+  #full-heart-1 {
+    left: 45%;
+  }
+
+  #heart-2 {
+    left: 84%;
+  }
+
+  #full-heart-2 {
+    left: 84%;
+  }
+
+  #heart-3 {
+    left: 45%;
+  }
+
+  #full-heart-3 {
+    left: 45%;
+  }
+
+  #heart-4 {
+    left: 84%;
+  }
+
+  #full-heart-4 {
+    left: 79%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 3rem;
+  }
+
+  footer h2 {
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-right: 1rem;
+    font-size: 18px;
+    font-family: Shrikhand;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .fa-utensils.fa-solid {
+    margin-right: 1rem;
+  }
+
+  .fa-handshake-angle.fa-solid {
+    margin-right: 10px;
+  }
+
+  footer ul {
+    display: flex;
+    padding-top: 84px;
+  }
+}
